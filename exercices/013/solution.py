@@ -7,6 +7,6 @@ Created on Mon Sep 22 15:05:29 2014
 
 import sys
 if len(sys.argv) == 1:
-    print("You must enter a parameter.")
+    print("usage: python3 solution.py PARAM")
 else:
     print(sys.argv[1])
