@@ -6,7 +6,7 @@ Created on Mon Sep 22 16:28:03 2014
 """
 
 x = 0
-for i in range(100):
+for i in range(101):
     if i % 2 == 0:
         x = x + i
 print(x)
