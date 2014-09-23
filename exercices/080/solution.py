@@ -10,4 +10,4 @@ a = "abcdefghijklmnopqrstuvwxyz"
 for i in a:
     c = c + 1
     for j in a[c:26]:
-        print(i, j)
+        print(i + j)
