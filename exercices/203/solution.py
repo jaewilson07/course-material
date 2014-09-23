@@ -7,4 +7,4 @@ Created on Tue Sep 23 16:52:06 2014
 
 
 def is_multiple(a, b):
-    return (b % a == 0)
+    return (a % b == 0)
