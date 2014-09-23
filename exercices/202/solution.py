@@ -7,4 +7,4 @@ Created on Tue Sep 23 15:46:34 2014
 
 
 def starts_with(A, B):
-    return (B == A[0])
+    return (B == A[0:len(B)])
