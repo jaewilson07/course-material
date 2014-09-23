@@ -14,7 +14,7 @@ station = {
 }
 
 print('latitude', station.get('latitude'))
-print('longitude', station.get('longitutde'))
+print('longitude', station.get('longitude'))
 print('number', station.get('number'))
 print('name', station.get('name'))
 print('address', station.get('address'))
