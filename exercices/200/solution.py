@@ -7,12 +7,9 @@ Created on Tue Sep 23 14:57:07 2014
 
 
 def is_prime(n):
+    x = True
     if n > 1:
-        for i in range(2,n):
+        for i in range(2, int(n ** .5)):
             if (n % i) == 0:
-                return False
-                break
-            else:
-                return True
-    else:
-        return False
+                x = False
+    return x
