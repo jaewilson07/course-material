@@ -9,4 +9,9 @@ import string
 
 
 def is_alpha(input):
-    return (input in list(string.ascii_lowercase))
+    rez = True    
+    for x in input:
+        if x not in string.ascii_lowercase:
+            rez = False
+            break
+    return rez
