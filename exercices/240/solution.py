@@ -11,4 +11,4 @@ x = ['1']
 for i in range(9):
     x.append(str(b))
     a, b = b, a+b
-print(', '.join(x) + ' ...')
+print(', '.join(x) + '.')
