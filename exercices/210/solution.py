@@ -13,7 +13,7 @@ def is_prime(n):
             if (n % i) == 0:
                 x = False
     return x
-    
+
 x = 0
 for n in range(1000):
     if is_prime(n) is True:
