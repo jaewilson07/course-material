@@ -11,7 +11,7 @@ import string
 def is_alpha(input):
     rez = True
     for x in input:
-        if x not in string.ascii_lowercase:
+        if x not in string.ascii_letters:
             rez = False
             break
     return rez
