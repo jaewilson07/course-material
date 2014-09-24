@@ -5,5 +5,5 @@ Created on Wed Sep 24 11:54:05 2014
 @author: Catherine
 """
 
-f = open('word')
+f = open('words')
 print(f.read().replace('\n', '').count('e'))
