@@ -11,7 +11,9 @@ def is_prime(n):
     if n <= 1:
         x = False
     elif n > 1:
-        for i in range(2, int(n ** .5)):
+        for i in range(2, int(n)):
             if (n % i) == 0:
                 x = False
     return x
+
+is_prime(4)
