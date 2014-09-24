@@ -35,7 +35,7 @@ def check_my_city(city_name):
             n = n + 1
             z.append(d.get('zip'))
     if n == 0:
-        return "Sorry! No Station for your city has been found!"
+        return "Sorry! No station for your city has been found!"
     else:
         return {"stations_nb": n,
                 "zip_code": z,
