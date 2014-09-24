@@ -15,5 +15,3 @@ def is_prime(n):
             if (n % i) == 0:
                 x = False
     return x
-
-is_prime(4)
